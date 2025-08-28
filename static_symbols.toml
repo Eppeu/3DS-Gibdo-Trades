@@ -1,0 +1,9 @@
+[[section]]
+name = "..ovl_En_Talk_Gibud"
+rom = 0x00f63bb0
+vram = 0x80afe8a0
+size = 0x30f0
+
+symbols = [
+  { name = "sRequestedItemTable", vram = 0x80b013a8}
+]

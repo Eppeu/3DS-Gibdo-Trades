@@ -1,0 +1,30 @@
+{
+    "authors" : [
+        "Eppe"
+    ],
+    "config_schema" : {
+        "options" : [
+            {
+                "default" : "Red Potion",
+                "description" : "Change the potion trade of the first gibdo.\nNote: Reload the room that you're in to have the change take\nplace. \nWarning: If you play in Randomizer, playing with the \"Red potion\"\noption will put you out of logic since you don't always have\naccess to the blue potion before the red one.\n",
+                "id" : "custom_potion_gibdo",
+                "name" : "Gibdo Potion Trade",
+                "options" : [
+                    "Red Potion",
+                    "Blue Potion"
+                ],
+                "type" : "Enum"
+            }
+        ]
+    },
+    "dependencies" : [
+        "MM_EZ_Text_Replacer_API:2.3.0"
+    ],
+    "description" : "Replace the N64 trade by the 3DS one",
+    "display_name" : "3DS Gibdo Trade",
+    "game_id" : "mm",
+    "id" : "mm_3ds_gibdo_trade",
+    "minimum_recomp_version" : "1.2.0",
+    "short_description" : "3DS Gibdo trades!",
+    "version" : "1.0.0"
+}

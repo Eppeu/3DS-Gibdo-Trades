@@ -1,0 +1,98 @@
+     VMA      LMA     Size Align Out     In      Symbol
+       0        0        0     1 RAMBASE = 0x81000000
+81000000 81000000      105     1 .rodata.str1.1
+81000000 81000000      105     1         <internal>:(.rodata.str1.1)
+81000110 81000110        0    16 .text
+81000110 81000110        0    16         build/src/Gibdo3DS.o:(.text)
+81000110 81000110      230     4 .recomp_import.MM_EZ_Text_Replacer_API
+81000110 81000110      230     4         build/src/Gibdo3DS.o:(.recomp_import.MM_EZ_Text_Replacer_API)
+81000110 81000110        8     1                 _EZTR_ReportFatalMessage
+81000118 81000118        8     1                 _EZTR_ReportErrorMessage
+81000120 81000120        8     1                 _EZTR_ReportWarningMessage
+81000128 81000128        8     1                 _EZTR_ReportInfoMessage
+81000130 81000130        8     1                 _EZTR_ReportDebugMessage
+81000138 81000138        8     1                 _EZTR_ReportVerboseMessage
+81000140 81000140        8     1                 _EXTR_ReportErrorMessage
+81000148 81000148        8     1                 EZTR_Basic_ReplaceBuffer
+81000150 81000150        8     1                 EZTR_Basic_ReplaceText
+81000158 81000158        8     1                 EZTR_Basic_ReplaceTextEmpty
+81000160 81000160        8     1                 EZTR_Basic_AddCustomBuffer
+81000168 81000168        8     1                 EZTR_Basic_AddCustomText
+81000170 81000170        8     1                 EZTR_Basic_AddCustomTextEmpty
+81000178 81000178        8     1                 EZTR_Basic_ReplaceCustomBuffer
+81000180 81000180        8     1                 EZTR_Basic_ReplaceCustomText
+81000188 81000188        8     1                 EZTR_Basic_ReplaceCustomTextEmpty
+81000190 81000190        8     1                 EZTR_MsgBuffer_Create
+81000198 81000198        8     1                 EZTR_MsgBuffer_CreateFromStr
+810001a0 810001a0        8     1                 EZTR_MsgBuffer_CreateFromStrN
+810001a8 810001a8        8     1                 EZTR_MsgBuffer_Destroy
+810001b0 810001b0        8     1                 EZTR_MsgBuffer_Copy
+810001b8 810001b8        8     1                 EZTR_MsgBuffer_NCopy
+810001c0 810001c0        8     1                 EZTR_MsgBuffer_Len
+810001c8 810001c8        8     1                 EZTR_MsgBuffer_ContentLen
+810001d0 810001d0        8     1                 EZTR_MsgBuffer_WriteDefaultHeader
+810001d8 810001d8        8     1                 EZTR_MsgBuffer_WriteHeader
+810001e0 810001e0        8     1                 EZTR_MsgBuffer_GetTextBoxType
+810001e8 810001e8        8     1                 EZTR_MsgBuffer_SetTextBoxType
+810001f0 810001f0        8     1                 EZTR_MsgBuffer_GetTextBoxYPos
+810001f8 810001f8        8     1                 EZTR_MsgBuffer_SetTextBoxYPos
+81000200 81000200        8     1                 EZTR_MsgBuffer_GetTextBoxDisplayIcon
+81000208 81000208        8     1                 EZTR_MsgBuffer_SetTextBoxDisplayIcon
+81000210 81000210        8     1                 EZTR_MsgBuffer_GetNextMsg
+81000218 81000218        8     1                 EZTR_MsgBuffer_SetNextMsg
+81000220 81000220        8     1                 EZTR_MsgBuffer_GetFirstItemRupees
+81000228 81000228        8     1                 EZTR_MsgBuffer_SetFirstItemRupees
+81000230 81000230        8     1                 EZTR_MsgBuffer_GetSecondItemRupees
+81000238 81000238        8     1                 EZTR_MsgBuffer_SetSecondItemRupees
+81000240 81000240        8     1                 EZTR_MsgBuffer_Print
+81000248 81000248        8     1                 EZTR_MsgBuffer_PrintCCode
+81000250 81000250        8     1                 EZTR_MsgBuffer_PrintFull
+81000258 81000258        8     1                 EZTR_MsgBuffer_PrintFullCCode
+81000260 81000260        8     1                 EZTR_MsgBuffer_GetContentPtr
+81000268 81000268        8     1                 EZTR_MsgSContent_SetEmpty
+81000270 81000270        8     1                 EZTR_MsgSContent_Len
+81000278 81000278        8     1                 EZTR_MsgSContent_NCopy
+81000280 81000280        8     1                 EZTR_MsgSContent_Copy
+81000288 81000288        8     1                 EZTR_MsgSContent_NCat
+81000290 81000290        8     1                 EZTR_MsgSContent_Cat
+81000298 81000298        8     1                 EZTR_MsgSContent_NCmp
+810002a0 810002a0        8     1                 EZTR_MsgSContent_Cmp
+810002a8 810002a8       10     1                 EZTR_MsgSContent_Printf
+810002b8 810002b8       10     1                 EZTR_MsgSContent_PrintfLine
+810002c8 810002c8        c     1                 EZTR_MsgSContent_Sprintf
+810002d4 810002d4        8     1                 EZTR_MsgSContent_Snprintf
+810002dc 810002dc        8     1                 EZTR_MsgSContent_Vsnprintf
+810002e4 810002e4        8     1                 EZTR_MsgSContent_Vprintf
+810002ec 810002ec        8     1                 EZTR_MsgSContent_Fctprintf
+810002f4 810002f4       10     1                 EZTR_MsgSContent_NoPipe_Printf
+81000304 81000304       10     1                 EZTR_MsgSContent_NoPipe_PrintfLine
+81000314 81000314        c     1                 EZTR_MsgSContent_NoPipe_Sprintf
+81000320 81000320        8     1                 EZTR_MsgSContent_NoPipe_Snprintf
+81000328 81000328        8     1                 EZTR_MsgSContent_NoPipe_Vsnprintf
+81000330 81000330        8     1                 EZTR_MsgSContent_NoPipe_Vprintf
+81000338 81000338        8     1                 EZTR_MsgSContent_NoPipe_Fctprintf
+81000340 81000340        8     4 .recomp_import.*
+81000340 81000340        8     4         build/src/Gibdo3DS.o:(.recomp_import.*)
+81000340 81000340        8     1                 recomp_get_config_u32
+81000348 81000348       58     4 .recomp_callback.*:recomp_on_play_main
+81000348 81000348       58     4         build/src/Gibdo3DS.o:(.recomp_callback.*:recomp_on_play_main)
+81000348 81000348       58     1                 EditGibdoTrades
+810003a0 810003a0       f0     4 .recomp_callback.MM_EZ_Text_Replacer_API:EZTR_OnInit
+810003a0 810003a0       f0     4         build/src/Gibdo3DS.o:(.recomp_callback.MM_EZ_Text_Replacer_API:EZTR_OnInit)
+810003a0 810003a0       f0     1                 threeds_gibdo_messages
+81000490 81000490        0    16 .data
+81000490 81000490        0    16         build/src/Gibdo3DS.o:(.data)
+81000490 81000490        0    16 .bss
+81000490 81000490        0    16         build/src/Gibdo3DS.o:(.bss)
+       0        0        0     1 .mdebug.abi32
+       0        0        0     1         build/src/Gibdo3DS.o:(.mdebug.abi32)
+       0        0       30     4 .rel.recomp_callback.*:recomp_on_play_main
+       0        0       30     4         build/src/Gibdo3DS.o:(.rel.recomp_callback.*:recomp_on_play_main)
+       0        0       60     4 .rel.recomp_callback.MM_EZ_Text_Replacer_API:EZTR_OnInit
+       0        0       60     4         build/src/Gibdo3DS.o:(.rel.recomp_callback.MM_EZ_Text_Replacer_API:EZTR_OnInit)
+       0        0      570     4 .symtab
+       0        0      570     4         <internal>:(.symtab)
+       0        0      141     1 .shstrtab
+       0        0      141     1         <internal>:(.shstrtab)
+       0        0      78a     1 .strtab
+       0        0      78a     1         <internal>:(.strtab)
