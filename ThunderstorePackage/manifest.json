@@ -1,7 +1,7 @@
 {
-    "name": "3DS_Gibdo_Trades",
-    "version_number": "1.0.0",
-    "website_url": "https://github.com/Eppeu/3DS-Gibdo-Trades",
-    "description": "Replace the trade of the Gibdos to their 3DS counterpart.",
-    "dependencies": ["LT_Schmiddy-EZ_Text_Replacer_API-2.3.0"]
+    "name": "Input_Viewer",
+    "version_number": "1.1.0",
+    "website_url": "https://github.com/Eppeu/Recomp-Input-Viewer-Mod",
+    "description": "Add an in-game Input Viewer to Zelda Majora's Mask Recompiled.",
+    "dependencies": []
 }
